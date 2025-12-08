@@ -1,4 +1,4 @@
-#(🧠 MindMate Harmony Space
+🧠 MindMate Harmony Space
 AI Mental-Wellbeing Companion powered by Jaseci & Object-Spatial Programming (OSP)
 📖 Overview
 
@@ -138,4 +138,4 @@ Backend terminal displays real OSP execution
 
 💙 Purpose
 
-MindMate Harmony Space offers a safe, supportive, and intelligent mental-wellbeing companion—helping users understand themselves better through data-driven emotional insight.)
+MindMate Harmony Space offers a safe, supportive, and intelligent mental-wellbeing companion—helping users understand themselves better through data-driven emotional insight.
