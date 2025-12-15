@@ -16,12 +16,12 @@ Detect repeating triggers
 
 Receive personalized AI-generated mental health advice
 
-🚀 Key Features
-✔️ Mood Logging
+Key Features
+Mood Logging
 
 Users input a mood score (1–10) and describe what they're feeling.
 
-✔️ OSP Graph Emotional Logic
+OSP Graph Emotional Logic
 
 The backend constructs a dynamic emotional graph:
 
@@ -31,27 +31,28 @@ trigger nodes store emotional triggers
 
 triggered_by edges connect moods to their causes
 
-✔️ AI Therapist Agent
+AI Therapist Agent
 
 A specialized walker analyzes the graph and generates supportive, empathetic advice based on recent emotional activity.
 
-✔️ Multi-Agent System
+Multi-Agent System
 
 Logger Agent – Handles mood creation
 
 Therapist Agent – Performs emotional analysis
 
-✔️ Pattern Recognition
+Pattern Recognition
 
 Common triggers and recurring mood trends become visible through OSP graph traversal.
 
-🛠️ Tech Stack
+Tech Stack
 Layer	Technology
 Backend	Jaseci (Jac Language)
 Frontend	Streamlit (Python)
 Architecture	Multi-Agent System (Logger + Therapist)
 Graph Model	Object-Spatial Programming (OSP)
-📂 Project Structure
+
+Project Structure
 MindMate/
 ├── backend/
 │   └── mindmate.jac       # Jaseci graph logic (nodes, edges, walkers)
@@ -60,11 +61,11 @@ MindMate/
 ├── README.md              # Documentation
 └── requirements.txt       # Dependencies
 
-🔧 How to Run the Project
+How to Run the Project
 
 Follow the steps below to run MindMate Harmony Space locally.
 
-✅ 1. Install Prerequisites
+1. Install Prerequisites
 
 You must have Python 3.8+ installed.
 
@@ -72,7 +73,7 @@ Install required libraries:
 
 pip install jaseci streamlit
 
-✅ 2. Run the Backend (Jaseci Brain)
+2. Run the Backend (Jaseci Brain)
 Step 1 — Start the Jaseci Shell
 jsctl -m
 
@@ -92,7 +93,7 @@ walker run log_mood -ctx '{"mood_score": 8, "description": "Feeling great", "tri
 B. Get Therapist Advice
 walker run get_therapist_advice
 
-✅ 3. Run the Frontend (Streamlit UI)
+3. Run the Frontend (Streamlit UI)
 
 Open a new terminal window (keep Jaseci shell running).
 
@@ -109,7 +110,7 @@ streamlit run frontend/app.py
 Your browser will open the UI automatically (usually at http://localhost:8501).
 
 🏆 Hackathon Implementation Details
-✔ Object-Spatial Graph (OSP)
+Object-Spatial Graph (OSP)
 
 Graph models emotions using emotion_entry nodes
 
@@ -117,13 +118,13 @@ Triggers stored in trigger nodes
 
 Relationships linked via triggered_by edges
 
-✔ Multi-Agent AI Architecture
+Multi-Agent AI Architecture
 
 log_mood → Input agent
 
 get_therapist_advice → Analysis agent
 
-✔ Jac Client + UI Visualization
+Jac Client + UI Visualization
 
 Streamlit displays mood logs
 
@@ -131,11 +132,11 @@ Visualizes trigger patterns
 
 Demonstrates emotional graph connections
 
-✔ Demo-Ready Setup
+Demo-Ready Setup
 
 Frontend runs in a polished presentation mode
 Backend terminal displays real OSP execution
 
-💙 Purpose
+Purpose
 
 MindMate Harmony Space offers a safe, supportive, and intelligent mental-wellbeing companion—helping users understand themselves better through data-driven emotional insight.
